@@ -1,1 +1,66 @@
-In this case study i had done Data cleaning and performed EDA to extract actionable insights and recommendations
+# Netflix Content Analysis
+
+## Overview
+
+This project provides an analysis of Netflix's content catalog to uncover trends and insights that can help improve user engagement and inform content strategies. The dataset includes movies and TV shows available on Netflix, along with their details like release year, rating, genre, and more.
+
+## Dataset Overview
+
+The dataset used for this analysis consists of 8807 entries across 12 columns, including movies and TV shows. The key columns include:
+
+show_id: Unique ID for each title
+type: Type of the title (Movie or TV Show)
+title: Title of the content
+director: Director(s) of the content
+cast: Cast of the content
+country: Country where the content was produced
+date_added: Date when the content was added to Netflix
+release_year: The year the content was released
+rating: Content rating (e.g., TV-MA, PG-13)
+duration: Duration of the content (minutes for movies, seasons for TV shows)
+listed_in: Genres of the content
+description: A brief description of the content
+
+## Key Insights
+Movies vs. TV Shows
+
+Netflix has more Movies (6128 titles) than TV Shows (2676 titles).
+Recommendation: Netflix can explore expanding its TV show offerings, especially in high-performing categories like international TV dramas and reality shows.
+Release Year Trend
+
+Most content was released between 2015 and 2021, with a peak in 2019.
+Recommendation: Continue focusing on new content but diversify release periods to maintain a consistent stream of fresh titles.
+Popular Genres
+
+Top genres include International Movies, Dramas, and Comedies. International Movies make up a significant portion of the content.
+Recommendation: Expand global content, especially from underrepresented regions like Southeast Asia and Africa.
+Content Ratings
+
+The most common ratings are TV-MA and TV-14, indicating a strong focus on mature audiences.
+Recommendation: Netflix could diversify its content to include more family-friendly options to cater to younger viewers.
+Geographical Distribution
+
+The United States dominates in terms of content production, followed by India and the United Kingdom.
+Recommendation: Increase content from other regions to cater to a broader international audience.
+Analysis Highlights
+Most Popular Directors and Actors
+
+Rajiv Chilaka is the most prolific director, especially in children’s and family-oriented content.
+Anupam Kher is the actor with the most appearances, especially in Bollywood titles.
+Duration of Content by Genre
+
+Dramas and Action & Adventure have the longest average runtime.
+Recommendation: Consider experimenting with episodic formats for longer genres to improve viewer retention.
+Content Release Trends
+
+2019 saw the highest number of content releases on Netflix, followed by a slight dip in subsequent years.
+Recommendation: Revitalize content acquisition strategies post-2020 to maintain a steady flow of new titles.
+Country-Specific Genre Preferences
+
+In the United States, genres like Dramas and Documentaries dominate, while in India, International Movies and Family Movies are most popular.
+Recommendation: Tailor content offerings to regional preferences for better local engagement.
+Visualizations and Plots
+Bar charts showing the number of movies vs. TV shows, content added by year, and popular genres.
+Heatmaps and box plots visualizing correlations between release years, ratings, and content duration by genre and country.
+Conclusion
+This analysis provides insights into Netflix's content strategy, identifying opportunities for expansion in TV shows, international markets, and family-friendly content. It also highlights trends in content release, genre preferences, and regional differences in consumption, offering actionable recommendations for enhancing Netflix’s global appeal.
